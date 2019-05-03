@@ -3,6 +3,11 @@
   src: url('{{ .Site.BaseURL }}fonts/Nunito-Regular.ttf');
 }
 
+@font-face {
+  font-family: 'Droid Sans Mono';
+  src: url('{{ .Site.BaseURL }}fonts/Droid-Sans-Mono.otf');
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -465,7 +470,6 @@ div.main .content .markdown {
   line-height: 1.2em;
   color: #313537;
   font-family: serif;
-  font-weight: 300;
 }
 div.main .content .markdown h1,
 div.main .content .markdown h2,
@@ -505,7 +509,7 @@ div.main .content .markdown h6 {
 }
 div.main .content .markdown code,
 div.main .content .markdown pre {
-  font-family: 'Menlo', monospace;
+  font-family: 'Droid Sans Mono', monospace;
   font-size: 0.98rem;
   background-color: #f7f7f7;
 }
