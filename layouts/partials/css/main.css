@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'Nexa Bold';
-  src: url('{{ .Site.BaseURL }}fonts/Nexa Bold.otf');
+  font-family: 'Nunito';
+  src: url('{{ .Site.BaseURL }}fonts/Nunito-Regular.ttf');
 }
 
 html, body, div, span, applet, object, iframe,
@@ -167,7 +167,7 @@ div.header .container .logo {
 div.header .name {
   padding-top: 20px;
   font-size: 28px;
-  font-family: 'Nexa Bold', 'Helvetica Neue', 'Arial', sans-serif;
+  font-family: 'Nunito', 'Helvetica Neue', 'Arial', sans-serif;
   letter-spacing: -0.005rem;
   {{ if isset .Site.Params "titlestyle" }}
       {{ if in "capitalize uppercase lowercase none full-width" .Site.Params.titlestyle }}
@@ -462,7 +462,7 @@ div.main .content {
 }
 div.main .content .markdown {
   font-size: 1.1em;
-  line-height: 1.75em;
+  line-height: 1.2em;
   color: #313537;
   font-family: serif;
   font-weight: 300;
@@ -741,8 +741,8 @@ kbd {
       font-family: 'Raleway';
 }
 
-.wf-merriweather-n3-active div.main .content .markdown {
-      font-family: 'Merriweather';
+.wf-nunito-n3-active div.main .content .markdown {
+      font-family: 'Nunito';
 }
 
 .wf-ubuntu-mono-n4-active div.main .content .markdown code,
