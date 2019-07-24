@@ -37,6 +37,19 @@
                     {{ end }}
                 </ul>
             </nav>
+            {{ if .IsHome }}
+            <div style="padding-top:14pt" class="main">Welcome to my website. This site is a blog about my interests, in particular practices and methods that result in good software</div>
+            <h2 style="padding-top: 16pt; text-transform: uppercase; font-weight: 600; font-size: 12pt">Recent posts</h2>
+            <table>
+                <!-- Ranges through content/posts/*.md -->
+                {{ range first 5 (where .Pages ".Draft" false)}}
+                    <tr>
+                        <td><a href="{{.Permalink}}">{{.Date.Format "Jan 2"}}</a></td>
+                        <td style="padding-left: 10pt"><a href="{{.Permalink}}"> {{.Title}}</a></td>
+                    </tr>
+                {{ end }}
+            </table>
+            {{ end }}
         </div>
     </div>
 </div>
