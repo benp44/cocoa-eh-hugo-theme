@@ -300,9 +300,9 @@ div.main .content .posts {
   {{ end }}
 }
 div.main .content .page-heading {
-  font-size: 20px;
+  font-size: 28px;
   font-weight: 700;
-  font-family: 'Helvetica Neue', 'Arial', sans-serif;
+  font-family: 'Raleway';
   letter-spacing: -0.005rem;
   text-transform: uppercase;
   -moz-osx-font-smoothing: grayscale;
@@ -562,7 +562,7 @@ div.main .content .markdown dd {
   margin-bottom: .5rem;
 }
 div.main .content .markdown ul {
-  list-style-type: disc;
+  list-style-type: square;
   list-style-position: outside;
   margin-bottom: 1.25rem;
 }
@@ -572,6 +572,7 @@ div.main .content .markdown ol {
 }
 div.main .content .markdown li {
   margin-left: 2em;
+  padding-left: 0.5em;
 }
 div.main .content .markdown em {
   font-style: italic;
