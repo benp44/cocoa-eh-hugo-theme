@@ -213,7 +213,7 @@ div.header nav ul li:last-child {
 div.header nav ul a {
   color: #555555;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 18px;
   text-transform: uppercase;
   font-family: 'Helvetica Neue', 'Arial', sans-serif;
   -webkit-transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
@@ -412,10 +412,12 @@ div.main .container .content .post-item {
   list-style: disc inside;
 }
 div.main .container .content .post-item .meta {
-  font-size: 14px;
+  font-size: 15px;
   color: #666666;
   display: none;
   min-width: 100px;
+  text-align: right;
+  margin-right: 20px;  
 }
 div.main .container .content .see-more {
   font-style: italic;

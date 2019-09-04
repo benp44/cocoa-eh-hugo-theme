@@ -18,6 +18,7 @@
         {{ end }}
         <div class="content">
             <a href="/"><div class="name"><h1>{{ .Site.Title }}</h1></div></a>
+            <h2 style="padding-bottom: 10px; font-size: 13pt">An increasingly grumpy blog about software engineering</h2>
             <nav>
                 <ul>
                     {{ if (and (ne (len (where .Site.RegularPages "Section" "blog")) 0) (not (in .Site.Params.exclude_headings "blog"))) }}
@@ -44,7 +45,7 @@
                 <!-- Ranges through content/posts/*.md -->
                 {{ range first 5 (where .Pages ".Draft" false)}}
                     <tr>
-                        <td><a href="{{.Permalink}}">{{.Date.Format "Jan 2"}}</a></td>
+                        <td style="text-align:right;">{{.Date.Format "Jan 2"}}</td>
                         <td style="padding-left: 10pt"><a href="{{.Permalink}}"> {{.Title}}</a></td>
                     </tr>
                 {{ end }}
