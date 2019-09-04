@@ -302,7 +302,7 @@ div.main .content .posts {
 div.main .content .page-heading {
   font-size: 28px;
   font-weight: 700;
-  font-family: 'Raleway';
+  font-family: 'Nunito';
   letter-spacing: -0.005rem;
   text-transform: uppercase;
   -moz-osx-font-smoothing: grayscale;
@@ -600,7 +600,7 @@ div.main .content .markdown abbr[title] {
 div.main .content .markdown blockquote {
   padding: .5rem 1rem;
   margin: .8rem 0;
-  color: #7a7a7a;
+  color: #4a4a4a;
   border-left: .25rem solid #e5e5e5;
 }
 div.main .content .markdown blockquote p:last-child {
@@ -743,7 +743,7 @@ kbd {
 .wf-raleway-n7-active div.main .content .markdown h4,
 .wf-raleway-n7-active div.main .content .markdown h5,
 .wf-raleway-n7-active div.main .content .markdown h6 {
-      font-family: 'Raleway';
+      font-family: 'Nunito';
 }
 
 .wf-nunito-n3-active div.main .content .markdown {
